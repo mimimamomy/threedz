@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test page</title>
+</head>
+<body>
+<p>дата и время</p>
+<a href="/">Назад</a>
+{% extends 'layouts/doter.html' %}
+{% block title %}test page{% endblock %}
+{% block text %}{{ date }}{% endblock %}
+</body>
+</html>
